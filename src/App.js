@@ -4,7 +4,7 @@ import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Home from "./components/Home";
 // import Fakenav from "./TestComponents/Fakenav"
-import { BrowserRouter,Routes,Route } from "react-router-dom";
+import { BrowserRouter,Routes,Route} from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -12,6 +12,7 @@ function App(){
     return(
         <>
         <BrowserRouter>
+        
         
         <Navbar />
         <Routes>
@@ -23,6 +24,7 @@ function App(){
             <Route path="/projects" element={<Projects />}></Route>
         </Routes>
         </BrowserRouter>
+    
         </>
     )
 }
