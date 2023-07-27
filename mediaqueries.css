@@ -41,6 +41,12 @@
     .about-containers {
       margin-top: 0;
     }
+      .about-pic {
+  border-radius: 250px;
+  height: 200px;
+  width: 180px;
+    border-radius:50px;
+}
   }
   
   @media screen and (max-width: 600px) {
@@ -96,10 +102,5 @@
     .text-container {
       text-align: justify;
     }
-    .about-pic {
-  border-radius: 250px;
-  height: 200px;
-  width: 180px;
-    border-radius:50px;
-}
+    
   }
