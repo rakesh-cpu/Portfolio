@@ -96,4 +96,10 @@
     .text-container {
       text-align: justify;
     }
+    .about-pic {
+  border-radius: 250px;
+  height: 200px;
+  width: 180px;
+    border-radius:50px;
+}
   }
